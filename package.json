@@ -1,0 +1,24 @@
+{
+  "name": "leez-genasi.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leez-genasi/leez-genasi.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/leez-genasi/leez-genasi.github.io/issues"
+  },
+  "homepage": "https://github.com/leez-genasi/leez-genasi.github.io#readme",
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}
