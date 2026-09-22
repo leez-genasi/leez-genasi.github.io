@@ -1,11 +1,10 @@
 import { useState } from 'react'
-import { Link } from 'react-router'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '../assets/vite.svg'
-import heroImg from '../assets/hero.png'
-import '../App.css'
+import heroImg from './assets/hero.png'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import './App.css'
 
-function NewHome() {
+function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -17,7 +16,7 @@ function NewHome() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>new home</h1>
+          <h1>Get started</h1>
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
@@ -42,13 +41,16 @@ function NewHome() {
           <p>Your questions, answered</p>
           <ul>
             <li>
-              <Link to="/Home">
+              <a href="https://vite.dev/" target="_blank">
                 <img className="logo" src={viteLogo} alt="" />
-                Go Home
-              </Link>
+                Explore Vite
+              </a>
             </li>
             <li>
-              <Link to="/Home">Go Home</Link>
+              <a href="https://react.dev/" target="_blank">
+                <img className="button-icon" src={reactLogo} alt="" />
+                Learn more
+              </a>
             </li>
           </ul>
         </div>
@@ -117,4 +119,4 @@ function NewHome() {
   )
 }
 
-export default NewHome
+export default App
